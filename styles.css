@@ -120,4 +120,25 @@ footer p {
         font-size: 2em;
     }
 }
+/* Add this to your existing styles.css */
+
+#search {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ff7e5f;
+    border-radius: 5px;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #feb47b;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+}
+
 
